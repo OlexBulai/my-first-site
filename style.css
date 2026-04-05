@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    padding: 30px 15px;
+    font-family: Arial, sans-serif;
+    background: radial-gradient(circle at top, #1f2a38, #0b0f14 75%);
+    color: #e6edf7;
+}
+
+.game-panel {
+    max-width: 650px;
+    margin: 30px auto;
+    padding: 30px;
+    background: linear-gradient(180deg, #1b2230, #121822);
+    border: 3px solid #4a5c74;
+    border-radius: 18px;
+    box-shadow:
+        0 0 0 4px #0c1118,
+        0 12px 35px rgba(0, 0, 0, 0.45);
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #ffd166;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.subtitle {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #9fb0c7;
+}
+
+.form-box {
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 14px;
+    background: #0f141d;
+    border: 2px solid #3d4c61;
+    border-radius: 10px;
+    color: #f5f7fb;
+    font-size: 16px;
+}
+
+input::placeholder {
+    color: #7e8ca0;
+}
+
+input:focus {
+    outline: none;
+    border-color: #ffd166;
+    box-shadow: 0 0 10px rgba(255, 209, 102, 0.25);
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #ffd166, #e6a700);
+    color: #2a1a00;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+button:hover {
+    filter: brightness(1.05);
+    transform: translateY(-1px);
+}
+
+.message {
+    min-height: 24px;
+    margin-bottom: 18px;
+    text-align: center;
+    font-weight: bold;
+    color: #ff8c8c;
+}
+
+.inventory-box {
+    padding: 20px;
+    background: #0f141d;
+    border: 2px solid #344355;
+    border-radius: 14px;
+    margin-bottom: 20px;
+}
+
+.inventory-box h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #7cc7ff;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    padding: 14px;
+    background: linear-gradient(90deg, #1c2431, #161d28);
+    border: 1px solid #42536a;
+    border-left: 6px solid #7cc7ff;
+    border-radius: 10px;
+    color: #f0f4fa;
+}
+
+.total-box {
+    padding: 18px;
+    text-align: center;
+    background: linear-gradient(180deg, #2a3444, #1a2330);
+    border: 2px solid #4f627b;
+    border-radius: 14px;
+}
+
+.total-box h3 {
+    margin: 0;
+    color: #ffd166;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
